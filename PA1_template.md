@@ -54,7 +54,7 @@ summary(activity)
 ##  Max.   :806.00   2012-10-06:  288   Max.   :2355.0  
 ##  NA's   :2304     (Other)   :15840
 ```
-Preprocess the data and add new columns required for the analisys.
+Preprocess the data and add new columns required for the analysis.
 
 ```r
 ## Cast date from factor to Date
@@ -146,7 +146,7 @@ abline(v=median_steps, col="blue", lty=2)
 
 ![](PA1_template_files/figure-html/activity_hist-1.png) 
 
-Analize the mean and median number of steps per day.
+Analyze the mean and median number of steps per day.
 
 ```r
 ## Report on mean and median
@@ -286,7 +286,7 @@ abline(v=median_steps_fixed, col="blue", lty=2)
 ```
 
 ![](PA1_template_files/figure-html/fixed_activity_hist-1.png) 
-Use the fixed data to analize the mean and median number of steps per day.
+Use the fixed data to analyze the mean and median number of steps per day.
 
 ```r
 ## Report on mean and median differences

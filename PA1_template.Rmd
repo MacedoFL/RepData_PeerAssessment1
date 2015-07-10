@@ -39,7 +39,7 @@ str(activity)
 summary(activity)
 
 ```
-Preprocess the data and add new columns required for the analisys.
+Preprocess the data and add new columns required for the analysis.
 ```{r preprocess_data, echo=TRUE}
 ## Cast date from factor to Date
 activity$date <- as.Date(activity$date)
@@ -84,7 +84,7 @@ abline(v=median_steps, col="blue", lty=2)
 
 ```
 
-Analize the mean and median number of steps per day.
+Analyze the mean and median number of steps per day.
 ```{r mean_median_report, echo=TRUE}
 ## Report on mean and median
 paste("The mean number of steps per day is:", round(mean_steps, 2))
@@ -179,7 +179,7 @@ abline(v=mean_steps_fixed, col="red", lty=3)
 abline(v=median_steps_fixed, col="blue", lty=2)
 
 ```
-Use the fixed data to analize the mean and median number of steps per day.
+Use the fixed data to analyze the mean and median number of steps per day.
 ```{r report_diff, echo=TRUE}
 ## Report on mean and median differences
 paste("The fixed mean number of steps per day is:", round(mean_steps_fixed, 2))
